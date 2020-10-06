@@ -1,0 +1,9 @@
+* Rectarrange
+This is a crate to pack rectangles orthogonally onto a series of rectangular pages, optimizing for first the number of pages, and then, the most rectangles of rectangles. 
+** Motivation
+In reality, I am looking for an algorithm that fits arbitrary shapes at arbitrary orientations, and optimizes for similar criteria. The goal is the layout of elements to be cut out on a sheet of paper. 
+
+I have not found an algorithm that solves this problem, so I am starting with the simpler problem to (a) better understand the problem (b) have something that works in the majority of cases. 
+
+** Licensing
+Licensed under either of [[LICENSE-APACHE][Apache License, Version 2.0]] or [[LICENSE-MIT][MIT License]] at your option.
